@@ -32,7 +32,7 @@ class ConanCudaLibRecipe(ConanFile):
             self.test_requires("gtest/1.13.0")
 
     def build_requirements(self):
-        self.tool_requires("cmake/3.26.4")
+        self.tool_requires("cmake/[>=3.26.0]")
 
     def layout(self):
         cmake_layout(self)
