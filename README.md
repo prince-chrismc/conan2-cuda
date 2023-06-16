@@ -13,7 +13,6 @@ REM Note: i have CMake installed so I used the system tools not avoid the downlo
 conan create . -pr vs2022
 ```
 
-
 I've install Visual Studio 2022, CMake, and CUDA dev kit.
 
 For getting  it in WSL, I used the CUDA deb installer + needed to add the compiler to the path

@@ -6,3 +6,9 @@ compiler.cppstd=gnu17
 compiler.libcxx=libstdc++11
 compiler.version=11
 os=Linux
+
+[system_tools]
+cmake/3.22.1
+
+[conf]
+tools.build:compiler_executables={'cuda': '/usr/local/cuda/bin/nvcc'}
